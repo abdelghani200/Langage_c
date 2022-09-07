@@ -59,6 +59,12 @@ Un nom : c'est ce qui permet de la reconnaître */
       printf("Veuillez saisir un nombre entre 10 et 20:");
       scanf("%d",&m);
     }while(m<10 || m>20);
-
+    
+    /* for */
+  
+  int i;
+  for(i=1;i<6;i++){
+    printf("Le carré de d est: d",i,i*i);
+  }
   
 }
