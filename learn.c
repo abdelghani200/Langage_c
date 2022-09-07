@@ -7,17 +7,15 @@ int main(){
 Une valeur : c'est le nombre qu'elle stocke, par exemple 5.
 Un nom : c'est ce qui permet de la reconnaître */
 
-  printf("Donner deux variables\n");
+  printf("Donner deux variables:\n");
   scanf("%d %d",&a,&b);
-  printf("incremente a et decremente b\n");
+  printf("incremente a et decremente b:\n");
   a++;
   b--;
-  printf("************\n");
-  printf("%d\n",a);
-  printf("%d\n",b);
-  int x;
-  x=a++;
-  printf("%d\n",x);
+
+  printf("la nouvelle valeur de a est:%d\n",a);
+  printf("la nouvelle valeur de b %d\n",b);
+
   
   /* La structure des conditions (if-else):
     Structure:
@@ -48,7 +46,7 @@ Un nom : c'est ce qui permet de la reconnaître */
   while(c<6){
     printf("%d\n",c);
     c++;
-  }  
+  }
 /* Do-while 
            Structure:
         do{                        on exécute
@@ -58,8 +56,9 @@ Un nom : c'est ce qui permet de la reconnaître */
   printf("\t\tdo------------whie\n");
     int m;
     do{
-      printf("Veuillez saisir un nombre entre 1 et 20\n");  
-      scanf("%d\n",&n);
-    }while(n<10 || n>20);  
+      printf("Veuillez saisir un nombre entre 10 et 20:");
+      scanf("%d",&m);
+    }while(m<10 || m>20);
+
   
 }
