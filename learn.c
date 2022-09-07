@@ -43,15 +43,23 @@ Un nom : c'est ce qui permet de la reconnaître */
       bloc d'instructions ;            bloc d'instructions
       }
   */
-  system("cls");
-  int c;
-  printf(" Veuillez saisir un nombre\n");
-  scanf("%d\n",&c);
+  printf("***************************\n");
+  int c=0;
   while(c<6){
     printf("%d\n",c);
     c++;
   }  
-    
+/* Do-while 
+           Structure:
+        do{                        on exécute
+                                   bloc d'instructions ; bloc d'instructions
+        }while(condition) ;        tant que condition est vrai (≠0)
   
+  printf("\t\tdo------------whie\n");
+    int m;
+    do{
+      printf("Veuillez saisir un nombre entre 1 et 20\n");  
+      scanf("%d\n",&n);
+    }while(n<10 || n>20);  
   
 }
