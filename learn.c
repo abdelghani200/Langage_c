@@ -1,4 +1,4 @@
-#include<stdio.>
+#include<stdio.h>
 
 int main(){
   int a,b;
@@ -10,5 +10,9 @@ Un nom : c'est ce qui permet de la reconnaître */
   printf("Donner deux variables\n");
   scanf("%d %d",&a,&b);
   prinft("incremente a et decremente b\n");
-  scanf("%d \t %d",a++,b--);
+  a++;
+  b--;
+  printf("************\n");
+  printf("%d\n",a);
+  printf("%d\n",b);
 }
