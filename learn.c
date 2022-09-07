@@ -9,7 +9,7 @@ Un nom : c'est ce qui permet de la reconnaître */
 
   printf("Donner deux variables\n");
   scanf("%d %d",&a,&b);
-  prinft("incremente a et decremente b\n");
+  printf("incremente a et decremente b\n");
   a++;
   b--;
   printf("************\n");
