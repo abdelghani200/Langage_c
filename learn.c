@@ -36,5 +36,22 @@ Un nom : c'est ce qui permet de la reconnaître */
   } else  max=b;
   printf("Le max de a et b est :%d",max);
   
+  /* Structure répétitive 
+     Structure:
+      while(condition)                 tant que condition est vraie (≠0)
+      {                                on exécute
+      bloc d'instructions ;            bloc d'instructions
+      }
+  */
+  system("cls");
+  int c;
+  printf(" Veuillez saisir un nombre\n");
+  scanf("%d\n",&c);
+  while(c<6){
+    printf("%d\n",c);
+    c++;
+  }  
+    
+  
   
 }
