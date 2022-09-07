@@ -51,7 +51,7 @@ Un nom : c'est ce qui permet de la reconnaître */
            Structure:
         do{                        on exécute
                                    bloc d'instructions ; bloc d'instructions
-        }while(condition) ;        tant que condition est vrai (≠0)
+        }while(condition) ;        tant que condition est vrai (≠0)  */
   
   printf("\t\tdo------------whie\n");
     int m;
@@ -64,7 +64,7 @@ Un nom : c'est ce qui permet de la reconnaître */
   
   int i;
   for(i=1;i<6;i++){
-    printf("Le carré de d est: d",i,i*i);
+    printf("Le carre de %d est: %d",i,i*i);
   }
   
 }
