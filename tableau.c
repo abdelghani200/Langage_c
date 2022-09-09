@@ -74,6 +74,7 @@ int main(){
 			default : break;		 
 			
 		}
+		
 	}while (choix !=3);
 	return 0;
 }

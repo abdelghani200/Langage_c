@@ -13,7 +13,6 @@ int main(){
    	printf("2-substraction\n");
    	printf("3-multiplication \n");
    	printf("4_division \n");
-   	printf("5-puissance\n");
    	printf("Quelle calcule veut-tu effectuer?\n");
    	scanf("%d",&c);
    	printf("Enter un nombre:\n");
@@ -34,7 +33,6 @@ int main(){
 		   	printf("incorrect...\n");
 		   };
 		   break;
-		//case 5 :printf("Le resultat est : %d\n",pow(A,B));   
 		   
 	default : printf("erreur\n"); break;  
     }
