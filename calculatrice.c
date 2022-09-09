@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 
-static int i;
+static float i;
 
 int main(){
    float A,B,y;
@@ -18,9 +18,9 @@ int main(){
 	   	printf("4_division \n");
 	   	printf("5-puissance\n");
 	   	printf("6-racine\n");
-	   	printf("7-cousinus\n");
-	   	printf("8-sinis\n");
-	   	printf("9-tangante\n");
+	   	printf("7-cosinus\n");
+	   	printf("8-sinus\n");
+	   	printf("9-tangente\n");
 	   	printf("Quelle calcule veut-tu effectuer?\n");
 	   	scanf("%d",&c);
    	switch(c){
@@ -58,8 +58,8 @@ int main(){
 			   	scanf("%f",&A);
 			   	printf("Enter un autre nombre:\n");
 			   	scanf("%f",&B);
-				
 				printf("Le resultat est : %f\n",pow(A,B));break;
+				
 		case 6 :printf("Donner un nombre:\n");
 			    scanf("%f",&i);
 			    printf("rasine(%f)=%f\n",i,sqrt(i));;break;
