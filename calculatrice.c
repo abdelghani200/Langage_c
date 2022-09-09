@@ -6,7 +6,7 @@ static float i;
 
 int main(){
    float A,B,y;
-   int c;
+   int c,F=1,X;
    char reponse;
    
    	do{
@@ -21,6 +21,7 @@ int main(){
 	   	printf("7-cosinus\n");
 	   	printf("8-sinus\n");
 	   	printf("9-tangente\n");
+	   	printf("10-factorielle\n");
 	   	printf("Quelle calcule veut-tu effectuer?\n");
 	   	scanf("%d",&c);
    	switch(c){
@@ -78,6 +79,15 @@ int main(){
 		case 9 :printf("Donner un nombre:\n");
 			    scanf("%f",&i);
 			    printf("tan(%f)=%f\n",i,tan(i));;break;
+			    
+		case 10 :printf("Donner un nombre:\n");
+			    scanf("%d",&X);
+			    
+			    for (i = 1; i <= X; i++){
+			        F = F * i;
+			    }
+			    printf("%d\n",F);break;
+				 	    
 		   
 	default : printf("erreur\n"); break;  
     }
